@@ -1,9 +1,18 @@
 #include<stdio.h>
 
 int main(void) {
-	int k;
-	printf("Please Enter Number: ");
-	scanf_s("%d", &k);
-	printf("Number is %d", k);
+	/*‘«‚µŽZ‚ð‚·‚é2‚Â‚Ì’l‚Æ“š‚¦‚ðŠi”[‚·‚é” a,b,c‚ð—pˆÓ‚·‚é*/
+	int a, b, c;
+
+	/*‘«‚µŽZ‚ð‚·‚é2‚Â‚Ì’l‚ð” a,b‚ÉŠi”[‚·‚é*/
+	a = 1;
+	b = 2;
+
+	/*” a‚Ì’l‚Æ” b‚Ì’l‚ð‘«‚µŽZ‚µ‚Ä,Œ‹‰Ê‚ð” c‚ÉŠi”[‚·‚é*/
+	c = a + b;
+
+	/*” c‚Ì’l‚ðƒfƒBƒXƒvƒŒƒC‚É•\Ž¦‚·‚é*/
+	printf("c = %d\n", c);
+
 	return 0;
 }
