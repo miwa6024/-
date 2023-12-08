@@ -29,26 +29,25 @@ int main()
 			other++;
 		}
 	}
-	if(length >= 8 && length <= 16 && lowerCaseCount > 0 && lowerCaseCount > 0 && other > 0)
+if(length >= 8 && length <= 16 && lowerCaseCount > 0 && lowerCaseCount > 0 && other > 0)
     {
-        printf("条件を満たしています");
+	printf("条件を満たしています");
     }
-    else if(length >= 8 && length <= 16 && lowerCaseCount > 0 && lowerCaseCount > 0 && other == )
-    {
-        printf("その他の文字が足りません");
-    }
-    else if(length >= 8 && length <= 16 && lowerCaseCount > 0 && lowerCaseCount == 0 && other > ){
-        printf("小文字が足りてません");
-    }
-    else if(length >= 8 && length <= 16 && lowerCaseCount == 0 && lowerCaseCount > 0 && other > ){
-        printf("大文字が足りません");
-    }
-    else if(length < 8 && lowerCaseCount > 0 && lowerCaseCount > 0 && other > ){
-        printf("文字数が少ないです");
-    }
-    else if(lengt > 16 && lowerCaseCount > 0 && lowerCaseCount > 0 && other > ){
-        printf("文字数が多すぎです");
-    }
-    
+ if (upperCaseCount == 0)
+ {
+ 	printf("大文字が含まれていません ");
+ }
+if (lowerCaseCount == 0)
+{
+    printf("小文字が含まれていません ");
+}
+if (other == 0)
+{
+    printf("その他の文字が含まれていません ");
+}
+if (!length >= 8 && !length <= 16)
+{
+    printf("文字数が条件外です");
+}
 	return 0;
 }
